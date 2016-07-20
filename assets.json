@@ -1,0 +1,13 @@
+{
+
+  "js": {
+
+    "app": [
+      "app.js",
+      "app/*",
+      "components/*"
+    ]
+
+  }
+
+}

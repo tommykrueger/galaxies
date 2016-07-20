@@ -1,0 +1,111 @@
+$colors = {
+
+	// color values
+	white: #fff
+	lightwhite: #e0e0e0
+	
+	yellow: #FFDFAA
+	orange: #ED6040
+	red: #FFC0A7
+	pink: #D13DCF
+
+	grey: #c0c0c0
+	lightGrey: #e9e9e9
+	darkGrey: #3D3D3D
+
+	lightblue: #3BC2B1
+	turquise: #1AF19D
+	
+	//blue: #D9E4ED,
+	//darkblue: #3B4859,
+	blue: #3DB6D1
+	darkblue: #2491A9
+	verydarkblue: #31464F
+
+	black: #000
+	darkGrey: #303030
+
+}
+
+$colors.message = {
+	info: $colors.blue,
+	warning: $colors.yellow,
+	error: $colors.red
+}
+
+// define the color set with 5 colors
+$colors.primary = $colors.blue
+$colors.secondary = $colors.darkblue
+
+
+$font = {
+
+	thick: 'Passion One'
+
+}
+
+
+
+$menu = {
+	backgroundcolor: $colors.blue
+	
+	item: {
+		font: lighten($colors.lightGrey, 25%)
+		default: none,
+		active: $colors.darkblue
+	}
+}
+
+$text = {
+
+	default: $colors.darkGrey,
+
+	link: $colors.white,
+	link_hover: $colors.white
+
+}
+
+$button = {
+
+	border: darken($colors.lightGrey, 10%)
+
+}
+
+$panel = {
+
+	border: darken($colors.lightGrey, 10%)
+	bg: $colors.white	
+}
+
+
+$globe = {
+
+
+	bg: $colors.white,
+	land: #454545,
+	country: $colors.verydarkblue,
+	point: $colors.orange,
+	arc: $colors.black,
+	flyer: #8615A5,
+	
+	interact: $colors.orange
+	
+	//bg: #262216,
+	//land: #49412c,
+	//country: #49412c,
+	//point: #97743a,
+	//arc: $colors.black,
+	//flyer: #8615A5
+	
+}
+
+
+$presets = {
+
+	dark: #262216,
+	light: #49412c,
+	
+	highlight: #97743a,
+	matt: #b0a18e
+
+}

@@ -1,0 +1,82 @@
+
+* {
+	box-sizing: border-box
+}
+
+html, body
+	color: $text.default
+	font-size: 100%
+	font-family: "Noto Sans", Helvetica, sans-serif
+	line-height: 1.3
+	overflow: hidden
+
+
+a
+	color: $colors.primary
+	text-decoration: none
+	
+	&:hover
+		text-decoration: underline
+		
+
+strong, b
+	font-weight: 600
+
+
+input[type=text]
+input[type=password],
+input[type=email],
+	font-size: 100%
+	font-family: unquote($settings.font)
+	border: 0
+	
+
+
+figure
+	margin: 0
+	
+
+
+
+#canvas
+	cursor: pointer
+	opacity: 0.0
+	position: absolute
+	z-index: 10
+
+#bg
+	width: 100%
+	height: 100%
+	position: absolute
+	z-index: -1
+	left: 0
+	top: 0
+	overflow: hidden
+	background: #000 url(../img/galaxy-bg.jpg) repeat center center
+
+
+
+
+.hidden
+	display: none
+
+
+.stats
+	top: auto !important
+	bottom: 0 !important
+
+
+@keyframes blink
+	0%
+		opacity: 0.2
+	50%
+		opacity: 0.8
+	100%
+		opacity: 0.2
+
+.blink
+	animation: blink 2s linear infinite
+	
+
+
+		

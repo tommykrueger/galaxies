@@ -1,0 +1,45 @@
+{
+  "name": "ExoplanetSystems",
+  "version": "2.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "http://exoplanetsystems.org"
+  },
+  "author": "Tommy Krüger",
+  "homepage": "http://exoplanetsystems.org",
+  "devDependencies": {
+    "bootstrap-styl": "^4.0.5",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-debug": "^2.0.1",
+    "gulp-iconfont": "^2.0.0",
+    "gulp-if": "^1.2.5",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-minify-css": "^1.1.6",
+    "gulp-newer": "^0.5.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-stylus": "^2.0.4",
+    "gulp-svgmin": "^1.2.0",
+    "gulp-uglify": "^1.2.0",
+    "nib": "^1.1.0",
+    "run-sequence": "^1.1.2",
+    "stylus": "^0.51.1",
+    "stylus-inline-svg": "^0.1.1"
+  },
+  "jspm": {
+    "dependencies": {
+      "jquery": "npm:jquery@^2.2.2",
+      "stats": "github:mrdoob/stats.js@master",
+      "three.js": "github:mrdoob/three.js@master",
+      "underscore": "npm:underscore@^1.8.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}

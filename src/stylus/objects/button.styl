@@ -1,0 +1,94 @@
+
+.button
+		
+	width: auto
+	margin: 0 20px
+	padding: 4px 8px
+	display: inline-block
+	vertical-align: top
+	
+	transition: all 250ms ease-in-out
+	background-color: $colors.white
+		
+
+	color: $colors.black
+	font-size: 16px
+	cursor: pointer
+	text-align: center
+	
+	border-width: 1px
+	border-style: solid
+	border-color: $button.border
+	
+	box-shadow: 0 0 5px alpha($colors.black, 10%)
+	
+	position: relative
+	background: linear-gradient(top, $colors.white, darken($colors.white, 7.5%))
+	
+	text-decoration: none
+	
+	transition: $settings.transition
+	
+
+
+	&-round
+		width: 180px
+		height: 180px
+		padding: 10px
+		border-radius: 50%
+		border: 6px solid darken($colors.white, 2%)
+		box-shadow: 2px 2px 3px alpha($colors.black, 0.25)
+		
+
+		&.active
+			border-color: $colors.orange
+		
+
+
+	&-featured
+		color: $colors.white
+		text-transform: uppercase
+		border-color: darken($colors.primary, 15%)
+		background: linear-gradient(top, $colors.primary, darken($colors.primary, 15%))
+		
+		&:hover
+			box-shadow: 0 0 5px alpha($colors.black, 15%)
+			background: linear-gradient(top, $colors.primary, darken($colors.primary, 10%))
+			text-decoration: none
+			
+
+	&-large
+		padding: 12px 24px
+		font-size: 22px
+		
+
+
+
+
+	// button states
+
+	&:hover
+		background-color: darken($colors.white, 1%)
+
+
+
+
+	// button content styles
+		
+	&-title
+	&-description
+		display: block
+		color: $colors.darkGrey
+		font-size: 26px
+		
+	&-title
+		margin: 16px 0 8px 0
+		padding: 0 0 2px 0
+		font-family: $font.thick
+		font-weight: bold
+		text-transform: uppercase
+		border-bottom: 1px solid $colors.lightGrey
+
+	&-description
+		font-size: 12px
+		letter-spacing: 1px
